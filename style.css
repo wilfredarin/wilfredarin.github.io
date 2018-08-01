@@ -1,0 +1,230 @@
+.header{width: 100%;
+		height:35px;
+		font-family: sans-serif;
+		word-spacing: 2px;
+		letter-spacing: 3px	;
+		background-color: #fffcfc;
+		
+		position:  fixed;
+		padding-left: 20px;
+		padding-top:5px;
+		
+		top:0px; 
+		/* zindex bug*/
+		z-index: 2;
+
+		
+		}
+
+
+#br{float: left;}
+
+li{
+
+	margin:0px;
+	margin-bottom: 30px;
+	margin-right: 45px;
+	float:right;
+	list-style:none;
+	text-decoration:none;
+
+		padding-left: 20px;
+		padding-top:5px;
+	
+}
+
+/* increasing header margin*/
+
+.heading{	font-family: sans-serif;
+			word-spacing: 2px;
+			letter-spacing: 3px	;
+			font-size: 24px;
+			
+			border-bottom: 1px solid;
+			margin:40px 20px;
+			
+			
+			}
+
+.house{		width: 23%;
+			height: 160px;
+			background-color: black;
+			margin:10px 20px;
+			
+			font-family: sans-serif;
+			word-spacing: 2px;
+			
+			font-size: 15px;
+			text-align: center;
+
+			
+
+}
+
+
+
+
+/* changing margin.. icreasing image hyt    */
+
+.images{display: inline;
+	margin:35px 10px;
+	padding:1px;
+	float:left;
+	width: 220px;
+	height:180px;
+
+	
+	
+
+}
+
+.images_caption	{display: inline;
+	width: 120px;
+	height: 20px;
+	background-color: black;
+	color: white;
+
+	margin:0px;
+	padding: 1px;
+	float:left;
+	border-radius: 4px;
+	
+
+}
+
+#summer{background-image: url("https://i.pinimg.com/236x/6a/17/06/6a1706889943ba1cd69b9e27fe099da4.jpg");
+background-size: cover;}
+
+#brick{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMNBfrOK9-zeFKopxb_2EDUopvac_m30cn5o5rXCdP4EP0s2zAn-jhmY");
+background-size: cover;}
+
+#renovation{background-image: url("http://cdn.freshome.com/wp-content/uploads/2012/09/Victorian-renovation-11.jpg");
+background-size: cover;}
+
+#barn{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgXlo-CpUxtLsr4dPhnVjwZJjAgLQEVq8JLUaVfkjaIGQFiEdQ");
+background-size: cover;}
+
+#summer2{background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ce/d0/e6/ced0e6c9876fac5ffde54a05b765a54a.jpg");
+background-size: cover;}
+
+#brick2{background-image: url("https://i.pinimg.com/736x/9a/24/ec/9a24ec89a08eb55a343f9473839a473f--australian-architecture-brick-architecture.jpg");
+background-size: cover;}
+
+#renovation2{background-image: url("http://wallpoper.com/images/00/33/52/21/villa-interior_00335221.jpg");
+background-size: cover;}
+
+#barn2{background-image: url("https://i.pinimg.com/736x/82/0b/ba/820bba7265cdb6948727700690772e4c.jpg");
+background-size: cover;}
+
+
+
+.text{margin:20px 20px;
+	font-family: consolas;
+	}
+
+
+
+#ceo{background-image: url("http://a.scpr.org/i/49a53fb0e2e8cc5b9c1bf6f60812c603/128959-full.jpg");
+background-size: cover;}
+
+#architect{background-image: url("https://www.webershandwick.com/images/uploads/female-ceo-reputation-premium-hero-2.jpg");
+background-size: cover;}
+
+#architect2{background-image: url("http://im.rediff.com/news/2017/mar/13arunabh2.jpg");background-size: cover;
+
+}
+
+#architect3{background-image: url("http://tech.co/wp-content/uploads/2015/02/WeDidit_SU_SANNI_02.jpg");background-size: cover;}
+
+
+
+.images h1,h2{font-family: consolas;font-weight: normal; text-align: center;margin-top:0px;margin: auto;
+}
+
+
+
+.contact{display: inline;
+	margin:10PX;
+	margin-top:60px;
+	padding:1px;
+	float:left;
+	width: 220px;
+	height:30px;
+	background-color: #94b8b8;
+	position: relative;
+	text-align:center;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+/*fixing zindex bug*/
+z-index: 1;
+
+}
+a{text-decoration: none;
+
+}
+
+a:visited 
+{
+    text-decoration: none; 
+    color:black;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+
+a :hover  {width: 220px;
+	height: 30px;
+
+	background-color:#ccccff;
+transition:0.3s;}
+
+
+
+
+input[type=text] {width: 100%;
+	height: 15px;
+	margin: 20px;
+	padding:10px;
+	
+
+    
+    
+    border:none;
+    border-bottom: 1px solid #ccccff }
+input[type=submit]{
+	width:15%;
+	height:35px;
+	background-color: black;
+	border-radius: 4px;
+	margin-left: 10px;
+	padding: auto;
+	color:white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*place holder*/
+
+
+::-webkit-input-placeholder { /* Chrome */
+  color:#85929E;font-size:24;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #85929E;
+}
+
+ 
+
+
+
+/*creating aboutz div to fix bookk mark problem*/
+
+#aboutz {width: 100%;
+height: 25px;
+margin: 150px 10px;}
+
+
+
+
