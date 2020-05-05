@@ -1,12 +1,27 @@
 .main{
-	background-color: Blue;
-}
+	background-color: blue;}
 
-.button {
+.message{
+	background-color: green;
+}
+.my_button {
+	width: 140px;
 	background-color: yellow;
 	padding: 5px;
-	position:absolute;
-	margin-top: 40%;
-	margin-left: 40%;
+	position:relative;
+	margin-top: 10%;
+	margin-left:10%;
+	border-radius: 5px;
+	align-content:center;
+	font-weight:bold;
+	animation: example 5s linear 2s infinite alternate;
 
 }
+
+@keyframes example {
+  0%   {background-color:red; left:0%; top:0%;}
+  25%  {background-color:yellow; left:40%; top:1%;}
+  50%  {background-color:yellow; left:50%; top:10%;}
+  75%  {background-color:yellow; left:30%; top:5%;}
+  100% {background-color:green; left:0%; top:0%;}
+  }
