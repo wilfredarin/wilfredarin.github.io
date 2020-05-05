@@ -62,4 +62,9 @@ li a:hover {
   body {
     background-color: lightblue;
   }
+
+	li {
+  		float: none;
+	}
+
 }
