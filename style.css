@@ -1,0 +1,12 @@
+.main{
+	background-color: Blue;
+}
+
+.button {
+	background-color: yellow;
+	padding: 5px;
+	position:absolute;
+	margin-top: 40%;
+	margin-left: 40%;
+
+}
