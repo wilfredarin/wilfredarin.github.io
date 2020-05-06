@@ -98,3 +98,14 @@ body {
     border-radius: 50%;
 
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+    #my-image {
+    height: 19rem;
+    width: 19rem;
+    margin: auto;
+    margin-top: -10vh;
+}
