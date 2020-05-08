@@ -116,6 +116,7 @@ section:nth-child(2n){
 section:nth-child(2n+1){
 	background-color: white;
 }
+
 /*about section*/
 
 #about{
@@ -208,7 +209,6 @@ section:nth-child(2n+1){
 	left:5%;
 	position: relative;
 	width: 40%;
-	border:2px solid black;
 	min-height: 100px;
 	margin:5px;
 }
@@ -257,6 +257,137 @@ section:nth-child(2n+1){
 }
 
 
+/*Education*/
+
+.degree-container{
+	display: flex;
+	flex-direction: column;
+	align-items:flex-end;
+	
+}
+
+.degree{
+	/*width:150px;*/
+	margin:0px;}
+
+.degree span{ 
+	font-size: 1.2rem;
+	color: blue;
+}
+
+.education-para{
+	text-align: right;
+	font-size:1rem;
+	margin:0px;}
+
+/*portfolio*/
+
+.portfolio-container{
+	height:inherit;
+	width:75%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:5%;
+
+}
+
+.cards:hover{
+	opacity: 1;
+}
+.cards{
+	width:40%;
+	min-height:12rem;
+	margin-bottom: 3rem;
+	opacity: 0.9;
+	tramsition:all 3s;
+	display: block;
+}
+#car-race{
+	background-image:url('car-race.jpg');
+	background-size: cover;
+
+}
+#web-dev{
+	background-image:url('web-dev.jpg');
+	background-size: cover;
+}
+#to-do{
+	background-image:url('to-do.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.cards i{
+	font-size:6rem;
+}
+.cards i:hover{
+	color:orange;
+}
+
+.port span{
+	font-size: 40px;
+	color:white;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+	display:inline-block;
+}
+/*contact section	*/
+
+#contact .section-heading span{
+	color:white;
+	}
+#contact{
+	background-color: blue;
+	
+}
+.container{
+	width:75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding:2%;
+}
+.contact-container{
+	width:75%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+	left:8%;
+
+
+}
+
+.mail{
+	width:35%;
+	
+}
+.get-in-touch{
+	width:35%;
+	
+}
+.footer{
+	width:35%;
+	left:30%;
+	position: relative;
+}
+
+.get-in-touch  span{
+
+	font-size: 30px;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+	display:inline-block;
+	color: white;
+}
+.b span{
+	font-size: 20px;
+	padding-top: 10px;
+	margin-right: 0.1rem;
+	display:inline-block;
+	color: white;
+}
 /*Margin Class*/
 
 .mb75px{
@@ -298,3 +429,15 @@ section:nth-child(2n+1){
 	background-color:purple;
 }
 
+/*font colors*/
+
+.fgreen{
+	color:green;
+}
+
+.fblue{
+	color:blue;
+}
+.forange{
+	color: orange;
+}
