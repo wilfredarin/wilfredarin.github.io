@@ -324,6 +324,18 @@ section:nth-child(2n+1){
 	background-size: cover;
 	background-position: center;
 }
+#mars{
+	background-image:url('mars.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+#quiz{
+	background-image:url('quiz.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
 .cards i{
 	font-size:6rem;
 }
