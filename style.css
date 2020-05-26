@@ -336,6 +336,12 @@ section:nth-child(2n+1){
 	background-position: center;
 
 }
+#music{
+	background-image:url('music.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
 .cards i{
 	font-size:6rem;
 }
