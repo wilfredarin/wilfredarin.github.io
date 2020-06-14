@@ -104,7 +104,7 @@ section{
 .section-heading span{
 	font-size: 40px;
 	color:#2857a4;
-	padding-top: 10px;
+	padding-top: 10vh;
 	margin-right: 0.5rem;
 	display:inline-block;
 
@@ -126,10 +126,12 @@ section:nth-child(2n+1){
 }
 
 #my-image{
-	height:12rem;
-	width: 12rem;
-	margin:auto;
-	margin-top:-17vh;
+	height: 25vh;
+    width: 25vh;
+    margin: auto;
+    margin-top: -11vh;
+    background-size: contain;
+	
 }
 
 
@@ -149,13 +151,15 @@ section:nth-child(2n+1){
 }
 
 #about-para {
-    padding: 10px;
+	
+    padding: 10vh;
     width: 70%;
     text-align: justify;
     color: grey;
-    line-height: 28px;
+    line-height: 5vh;
     font-size: 1.1rem;
     margin: auto;
+    display: block;
 }
 
 .text-highlight {
@@ -362,7 +366,7 @@ section:nth-child(2n+1){
 	color:white;
 	}
 #contact{
-	background-color: blue;
+	background-color: #31283e;
 	
 }
 .container{
@@ -373,25 +377,31 @@ section:nth-child(2n+1){
 	flex-wrap: wrap;
 	padding:2%;
 }
+
 .contact-container{
-	width:75%;
+	width:100%;
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	
 	position: relative;
 	left:8%;
-
-
+	
 }
 
 .mail{
 	width:35%;
 	
 }
+
+form input{
+	border: 2px solid grey;
+}
 .get-in-touch{
 	width:35%;
-	
+		
 }
+
+
 .footer{
 	width:35%;
 	left:30%;
@@ -400,7 +410,7 @@ section:nth-child(2n+1){
 
 .get-in-touch  span{
 
-	font-size: 30px;
+	font-size: .9rem;
 	padding-top: 10px;
 	margin-right: 0.5rem;
 	display:inline-block;
@@ -412,6 +422,9 @@ section:nth-child(2n+1){
 	margin-right: 0.1rem;
 	display:inline-block;
 	color: white;
+}
+#head1{
+	font-size: 2.5rem;
 }
 /*Margin Class*/
 
@@ -466,3 +479,13 @@ section:nth-child(2n+1){
 .forange{
 	color: orange;
 }
+
+/* Media Querry */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	#my-image{
+		background-size: cover;
+	}  
+}
+
+
